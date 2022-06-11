@@ -1,0 +1,44 @@
+/* 1. Assessment Details: 
+        Display the latest movie list in the page (Name, image, brief details, rating, language etc). 
+        Provide options to filter based on rating or language; option to add new movies to the list. 
+        Shall be able to sort the list based on rating or language etc */
+
+* {
+        margin: 0px;
+}
+
+li {
+        cursor: pointer;
+        border: 1px solid blue;
+        margin: 0px 10px;
+}
+
+li:hover {
+        background-color: #b4cbee;
+        border-radius: 5px;
+}
+
+.iconFix {
+        display: flex;
+}
+
+.formChooseLanguage {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+
+.cardBodyOuter {
+        display: flex;
+        flex-direction: column;
+}
+
+.card-footer {
+        display: flex;
+        justify-content: flex-end;
+}
+
+.alert{
+        width: 50%;
+        margin: 0.5rem auto;
+}
