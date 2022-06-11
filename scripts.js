@@ -228,11 +228,11 @@
         let currentMoviesList = document.querySelectorAll("#cardItem");
         if(flipN==true){
             flipN = false;
-            sortByRating.querySelector(".material-icons").style.transform = 'scale(-1)'; 
+            sortByName.querySelector(".material-icons").style.transform = 'scale(-1)'; 
         }
         else{
             flipN=true;
-            sortByRating.querySelector(".material-icons").style.transform = 'scale(1)'; 
+            sortByName.querySelector(".material-icons").style.transform = 'scale(1)'; 
         }
         sortUtill(currentMoviesList, flipN, "#cardTitle");
     });
