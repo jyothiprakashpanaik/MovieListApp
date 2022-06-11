@@ -169,6 +169,16 @@
 
     submitBtn.addEventListener("click", () => {
 
+        if(inputTitle.value.trim()=="" ||inputLink.value.trim()==""|| inputLanguage.selectedIndex==0 || inputGenre.selectedIndex==0){
+            let form = document.querySelector(".offcanvas-body > form");
+            form.style.border = "3px solid red";
+            setTimeout(()=>{
+                form.style.border = "none";
+            },3000);
+            return ;
+        }
+
+
         let newCardItem = {
             name: inputTitle.value.trim(),
             image: inputLink.value.trim(),
@@ -183,10 +193,8 @@
         userBreif.innerText = null;
         userRating.innerText = 5;
         ratingRange.value = 5;
-        inputLanguage.innerText = null;
-        inputGenre.innerText = null;
-
-
+        inputLanguage.selectedIndex = 0;
+        inputGenre.selectedIndex = 0;
 
 
         moviesList.push(newCardItem);

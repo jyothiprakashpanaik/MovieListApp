@@ -41,26 +41,26 @@
                 <div class="form-group p-3">
                     <div class="row">
                         <label class="m-2" for="inputTitle">Title</label>
-                        <input type="text" class="form-control m-2" id="inputTitle" placeholder="Movie Title">
+                        <input type="text" class="form-control m-2" id="inputTitle" placeholder="Movie Title" required>
                     </div>
                     <div class="row md-form">
                         <label for="form7" class="m-2">Breif</label>
-                        <textarea id="userBreif" class="m-2 md-textarea form-control" rows="3"></textarea>
+                        <textarea id="userBreif" class="m-2 md-textarea form-control" rows="3" placeholder="Movie Breif" required></textarea>
                     </div>
                     <div class="row md-form">
                         <label for="form7" class="m-2">Link</label>
-                        <input type="text" class="form-control m-2" id="inputLink" placeholder="Movie Image Link">
+                        <input type="text" class="form-control m-2" id="inputLink" placeholder="Movie Image Link" required>
                     </div>
                     <div class="row">
                         <label for="inputRating" class="m-2">Rating <span class="badge bg-primary"><span
                                     id="userRating">0.0</span>⭐</span></label>
-                        <input type="range" class="form-range m-2" min="0" max="10" step="0.1" id="customRange3">
+                        <input type="range" class="form-range m-2" min="0" max="10" step="0.1" id="customRange3" required>
                     </div>
 
                     <div class="formChooseLanguage">
                         <div class="row form-group col-md-4">
                             <label for="inputLanguage" class="m-2">Language</label>
-                            <select id="inputLanguage" class="m-2 form-control">
+                            <select id="inputLanguage" class="m-2 form-control" required>
                                 <option selected>Choose...</option>
                                 <option value="English">English</option>
                                 <option value="Hindi">Hindi</option>
@@ -71,7 +71,7 @@
                         </div>
                         <div class="row form-group col-md-4">
                             <label for="inputGenre" class="m-2">Genre</label>
-                            <select id="inputGenre" class="form-control m-2">
+                            <select id="inputGenre" class="form-control m-2" required>
                                 <option selected>Choose...</option>
                                 <option>Adventure</option>
                                 <option>Comedy</option>
