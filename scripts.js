@@ -174,7 +174,7 @@
             form.style.border = "3px solid red";
             setTimeout(()=>{
                 form.style.border = "none";
-            },3000);
+            },1000);
             return ;
         }
 
