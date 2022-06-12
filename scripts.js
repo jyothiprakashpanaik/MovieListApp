@@ -174,7 +174,7 @@
             form.style.border = "3px solid red";
             setTimeout(()=>{
                 form.style.border = "none";
-            },3000);
+            },1000);
             return ;
         }
 
@@ -188,9 +188,9 @@
             genre: inputGenre.options[inputGenre.selectedIndex].value.trim(),
         };
 
-        inputTitle.innerText = null;
-        inputLink.innerText = null;
-        userBreif.innerText = null;
+        inputTitle.innerText = "";
+        inputLink.innerText = "";
+        userBreif.innerText = "";
         userRating.innerText = 5;
         ratingRange.value = 5;
         inputLanguage.selectedIndex = 0;
