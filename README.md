@@ -7,13 +7,13 @@
 - 🌐 Web App Link 👉 https://jyothiprakashpanaik.github.io/MovieListApp/
 
 **Features Involved:** 🛠
-
-- Add new movie to the movie list 🆕
-- Sort the list by rating 🌟
-- sort the list by alphabets 🔠
-- Filter by language ➰
-- Filter by genre 🎦
-- Search by title 📛
+- *Store Data in Local Storage 📝*
+- *Add new movie to the movie list 🆕*
+- *Sort the list by rating 🌟*
+- *sort the list by alphabets 🔠*
+- *Filter by language ➰*
+- *Filter by genre 🎦*
+- *Search by title 📛*
 
 
 ### Web App Images 🖼
