@@ -105,6 +105,15 @@
         if(!!sMoveList){
             moviesList = JSON.parse(sMoveList);            
         }
+        else{
+            let noMovieTemplate = templates.content.querySelector(".noMovie");
+            let noMovie = document.importNode(noMovieTemplate, true);
+            spanAlert.appendChild(noMovie);
+
+            setTimeout(()=>{
+                spanAlert.removeChild(noMovie);
+            }, 5000);
+        }
     }
 
     loadToPage();
