@@ -14,6 +14,7 @@
 - *Filter by language ➰*
 - *Filter by genre 🎦*
 - *Search by title 📛*
+- *Responsive UI 📲*
 
 
 ### Web App Images 🖼
@@ -29,6 +30,15 @@
 
 **4. Search By title**
 ![image](https://user-images.githubusercontent.com/64550298/173202123-ef496043-a1ec-4c44-a969-20a371574408.png)
+
+
+**5. Responsive UI**
+
+<div>
+<img src="https://user-images.githubusercontent.com/64550298/173225898-68c3a363-9c7d-40ef-937d-6291489f62f9.png" style="height:400px"/>
+<img src="https://user-images.githubusercontent.com/64550298/173225987-8ee9f6da-4a11-459e-b1b2-c0a21b400424.png" style="height:400px"/>
+</div>
+
 
 
 ### Built with Tech 👩‍💻
